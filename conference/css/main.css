@@ -602,7 +602,7 @@ h2,
 h3,
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #ff6c00;
+  color: #de3a4d;
 }
 /* PAGE BORDER */
 html:before,
@@ -799,7 +799,7 @@ body:after {
   padding-top: 10px;
   padding-bottom: 10px;
   background: ;
-  color: #ffffff;
+  color: #a6000d;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-border-radius: 0;
@@ -813,7 +813,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #ba8 !important;
 }
 .btn:before {
   content: '';
@@ -1184,7 +1184,7 @@ body:after {
   max-width: 100%;
 }
 .header-stick {
-  background-color: #010b1a !important;
+  background-color: #000000 !important;
   opacity: 0.8;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -1333,7 +1333,7 @@ body:after {
 }
 .hd-list-menu a:hover {
   text-decoration: none;
-  color: #26efb1;
+  color: #6599ff;
 }
 .hd-list-menu li {
   margin-left: 0;
@@ -1438,7 +1438,7 @@ body:after {
   display: block;
   width: 100%;
   height: 100%;
-  background: #363B56;
+  background: #a6000d;
   position: absolute;
   top: 0;
   left: 0;
@@ -1843,7 +1843,7 @@ body:after {
     text-align: left;
   }
   .event-info-col:hover {
-    background-color: #601414;
+    background-color: #510006;
     /*width: 28%!important;*/
   }
   .event-info-col:hover .event-info-ico {
@@ -1892,7 +1892,7 @@ body:after {
   padding-bottom: 40px;
 }
 .schedule-item-block {
-  background: url('../img/progress-bg.png') repeat-x center center fixed #3e4651;
+  background: url('../img/progress-bg.png') repeat-x center center fixed #d6000d;
   min-height: 200px;
   overflow: hidden;
   display: none;
@@ -1937,7 +1937,7 @@ body:after {
   padding: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: url('../img/bgmask2.png') no-repeat center center #7E0000 ;
+  background: url('../img/bgmask2.png') no-repeat center center #510006 ;
   min-height: 160px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -1956,7 +1956,7 @@ body:after {
   content: '';
   width: 10px;
   height: 10px;
-  background: #029669;
+  background: #ce3a4d;
   position: absolute;
   left: -5px;
   top: 50%;
@@ -2826,7 +2826,7 @@ body:after {
   width: 40px;
   height: 40px;
   text-align: center;
-  background: #0F8863;
+  background: #ce3a4d;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2950,16 +2950,16 @@ h4#myModalLabel.modal-title {
   overflow-y: scroll;
 }
 a {
-  color: #ff6c00;
+  color: #ce3a4d;
 }
 .event-info-col {
   width: 33%;
 }
 .schedule-item-text p a {
-  color: #ff6c00;
+  color: #ce3a4d;
 }
 #sponsorship-prospectus {
-  color: #ff6c00;
+  color: #fe3a4d;
 }
 .sponsor-img {
   width: 100%;
