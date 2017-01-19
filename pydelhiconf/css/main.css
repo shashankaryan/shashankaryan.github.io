@@ -813,7 +813,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left #bd67 !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #bd6730 !important;
 }
 .btn:before {
   content: '';
