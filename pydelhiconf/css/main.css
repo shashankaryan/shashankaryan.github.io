@@ -526,7 +526,7 @@ Project:  PyDelhi Conference
   color: #04cd8f;
 }
 .color2 {
-  color: #029669;
+  color: #bd6730;
 }
 .color3 {
   color: brown;
@@ -746,7 +746,7 @@ body:after {
   transition: all 0.2s ease-in-out;
 }
 .inverted-section2 .owl-pagination .owl-page.active span {
-  background: #04cd8f !important;
+  background: #dd6730 !important;
 }
 .section-padding {
   padding-top: 30px;
@@ -868,7 +868,7 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #029669;
+  background: #bd6730;
   z-index: -1;
 }
 .btn2:hover {
@@ -1342,7 +1342,7 @@ body:after {
   margin-top: 40px;
 }
 .mm-social-icons a {
-  color: #029669;
+  color: #bd6730;
   margin-right: 3px;
 }
 .mm-social-icons a:hover .fa {
@@ -1515,7 +1515,7 @@ body:after {
   color: #ffffff;
 }
 .intro-content .btn-nobg:hover {
-  border-color: #029669 !important;
+  border-color: #bd6730 !important;
 }
 .intro-content p {
   font-size: 13px;
@@ -2063,7 +2063,7 @@ body:after {
   ============================================================================
 */
 .faq-item-content:before {
-  background: #029669;
+  background: #bd6730;
 }
 .faq-item-block {
   background: url('../img/progress-bg.png') repeat-x center center fixed brown;
@@ -2160,7 +2160,7 @@ body:after {
 }
 .blog-item-title-hr {
   border: 0;
-  border-top: 3px solid #029669;
+  border-top: 3px solid #bd6730;
   width: 20%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -2368,7 +2368,7 @@ body:after {
 }
 .team-member-picture-wrapper .team-member-find-overlay .block-link:hover {
   background: #ffffff;
-  color: #029669;
+  color: #bd6730;
 }
 .team-member-picture-wrapper .team-member-find-content {
   position: absolute;
@@ -2467,7 +2467,7 @@ body:after {
   padding: 10px 20px;
 }
 .modal-content .modal-title {
-  color: #029669;
+  color: #bd6730;
   font-size: 22px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
@@ -2797,7 +2797,7 @@ body:after {
   text-decoration: none;
 }
 .tab-links2 li.active a {
-  background: #029669;
+  background: #bd6730;
   text-decoration: none !important;
 }
 .tabs-content2 .tab {
@@ -2909,7 +2909,7 @@ html.safari:after {
   font-size: 16px;
 }
 h4#myModalLabel.modal-title {
-  color: #029669 !important;
+  color: #bd6730 !important;
 }
 @media (max-width: @screen-xs-min) {
   .modal-xs { width: @modal-sm; }
