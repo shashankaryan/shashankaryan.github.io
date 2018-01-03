@@ -3,6 +3,7 @@
   -----------------------------------*/
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Josefin+Slab|Pacifico|Poiret+One');
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Poppins:400,700");
 /*====================================================================
                             Pre Loader
@@ -400,6 +401,11 @@ text-decoration: none;
     left: 0;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
     -webkit-transition: -webkit-transform 1s linear;
     -moz-transition: -moz-transform 1s linear;
     -ms-transition: -ms-transform 1s linear;
@@ -408,11 +414,11 @@ text-decoration: none;
 }
 
 .tabs > div:hover > img {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
 }
 
 .heading {
@@ -446,7 +452,7 @@ text-decoration: none;
 }
 
 .heading h2 {
-    color: lightsteelblue;
+    color: lightskyblue;
     font-weight: 200;
     margin: 0;
     font-size: 25px;
@@ -472,21 +478,19 @@ text-decoration: none;
   z-index: 1000;
   font-size: 30px;
   top: 15px;
-  color: cyan;
+  color: snow;
+  font-weight: 600;
   left: 2%;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
   display: none;
 }
 
-                    /*-------------------------------------------------
-                       6 ) General Rules for Content Pages Fixed Image
-                      -------------------------------------------------*/
+/*Tabs*/
 
-.profile-page,
-.resume-page,
-.portfolio-page,
-.contact-page {
+.about-page,
+.career-page,
+.reach-page {
     position: absolute;
     top: 0;
     left: 0;
@@ -500,7 +504,7 @@ text-decoration: none;
     overflow: hidden;
 }
 
-.main-heading {
+.keyword {
     position: relative;
     top: 50%;
     padding-left: 50px;
@@ -511,20 +515,22 @@ text-decoration: none;
     transform: translateY(200%);
 }
 
-.main-heading h1 {
+.keyword h1 {
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     position: relative;
     text-align: left;
 }
 
-.main-heading h1:after {
-    background-color: #6A8D9D;
+.keyword h1:after {
+    background-color: peru;
     position: absolute;
     content: "";
     top: 100%;
     left: 0;
     width: 400px;
-    height: 6px;
+    border-radius: 25%;
+    height: 7px;
 }
 
 .content-container {
@@ -534,49 +540,57 @@ text-decoration: none;
     background: #f5f5f5;
 }
 
-                    /*------------------
-                       7 ) Profile Page
-                      ------------------*/
-
-/* ( a ) Story of Glory */
-
-.profile-page .image-container {
-    background: url(../images/background/profile_image.jpg);
+/*------------------
+    Who Am I ?
+------------------*/
+.about-page .image-container {
+  background: url(../images/backgrounds/profile-bg.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .story {
-    background: url(../images/background/story_bg.jpg);
-    background-size: cover;
     min-height: 100vh;
+    background: url(../images/backgrounds/story-bg.jpg);
+    background-size: cover;
+    padding-bottom: 35px;
+    padding-top: 15px;
 }
 
 .story-content {
-    padding: 20px;
+  background: url(../images/backgrounds/paper-sheet.png);
+  background-size: cover;
+    padding: 25px;
+    transform: rotate(-8deg);
+    margin: 0 auto;
+    width: 65%;
+    min-height: 98vh;
 }
-
-.story-content img {
-    padding: 0;
-    border: 1px solid #6A8D9D;
+.story-content p{
+  font-size: 16px;
 }
-
-.story-content div h3 {
-    color: #6A8D9D;
+.story-content hr{
+  background-color: black;
+}
+.story-content h3 {
+    color: saddlebrown;
     line-height: 1;
     margin-top: 0;
+    font-family: 'Courgette', cursive;
 }
 
-.story-content div p {
+.story-content p {
     text-indent: 25px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-.story-content div a {
+/*.story a {
     border: 1px solid #6A8D9D;
     color: #6A8D9D;
     display: block;
     float: left;
-    margin: 29px 5px;
     padding: 10px 25px;
     text-decoration: none;
     text-align: center;
@@ -587,80 +601,19 @@ text-decoration: none;
     transition: all 0.3s;
 }
 
-.story-content div a:hover {
+.story a:hover {
     background: #6A8D9D;
     color: #fff;
-}
+}*/
 
-/* ( b ) What Can I Do */
+/*-------------------------
+   Study & Career Insights
+  ------------------------*/
 
-.services-container {
-    background: #6A8D9D;
-}
-
-.services-container h2 {
-    color: #fff;
-}
-
-.services {
-    text-align: center;
-    padding: 15px;
-    -webkir-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.services:hover {
-    background: rgba( 255, 255, 255, 0.05);
-}
-
-.services i {
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15), 0 0 0 0 rgba(255, 255, 255, 0.3);
-    color: #6A8D9D;
-    font-size: 36px;
-    height: 60px;
-    line-height: 60px;
-    width: 60px;
-    margin: 20px 0 10px 0;
-    -webkir-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.services:hover i {
-    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(255, 255, 255, 0);
-}
-.services p,
-.services h3 {
-    color: #fff;
-}
-
-/* ( c ) Some Facts */
-
-.facts {
-    background: url(../images/background/facts-bg.jpg);
+.career-page .image-container {
+    background: url(../images/backgrounds/career-bg.jpg);
     background-size: cover;
-    text-align: center;
-    padding: 50px 15px;
-}
-
-                    /*-----------------
-                       8 ) Resume Page
-                      -----------------*/
-
-/* ( a ) Education Section */
-
-.resume-page .image-container {
-    background: url(../images/background/resume_image.jpg);
-    background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .education-container {
@@ -736,7 +689,6 @@ text-decoration: none;
     padding: 15px 5px;
 }
 
-/* ( b ) Experience Section */
 
 .experience {
     background: #6A8D9D;
@@ -811,7 +763,6 @@ text-decoration: none;
     color: #fff;
 }
 
-/* ( c ) Skills Section */
 
 .skill-container {
     text-align: center;
@@ -839,13 +790,12 @@ text-decoration: none;
 
 
 
-                    /*-------------------
-                       10 ) Contact Page
-                      -------------------*/
+/*-------------------
+   Reach Page
+  -------------------*/
 
-/* ( a )  Contact Form */
 
-.contact-page .image-container {
+.reach-page .image-container {
     background: url(../images/backgrounds/contact-bg.jpg);
     background-size: cover;
     background-position: bottom;
@@ -952,8 +902,6 @@ text-decoration: none;
     height: 700px;
 }
 
-/* ( b )  Contact Details */
-
 .contact {
     padding: 20px;
     height: 155px;
@@ -995,26 +943,4 @@ text-decoration: none;
 
 .contact-details .social-media a + .tooltip > .tooltip-arrow {
     border-top-color: #343333;
-}
-
-                    /*-------------
-                       11 ) Footer
-                      -------------*/
-
-.footer {
-    background: #6A8D9D;
-    padding: 10px 20px 6px 20px;
-}
-
-.footer a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    float: left;
-}
-.footer p {
-    line-height: 1;
-    color: #fff;
-    float: right;
-    margin: 0;
 }

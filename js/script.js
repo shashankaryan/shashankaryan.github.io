@@ -3,8 +3,15 @@
     ------------------  */
 
 $(window).load(function () {
-  $('.profile-page, .resume-page, .contact-page, .portfolio-page').hide();
+  $('.about-page, .career-page, .reach-page, .portfolio-page').hide();
   $('#preloader').delay(1000).fadeOut(1200);
+});
+
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
 });
 
 $(document).ready(function () {
@@ -16,7 +23,7 @@ $(document).ready(function () {
     --------------------*/
     $(".element").typed({
       strings: [
-        "I'm Shashank Aryan", "A Web Developer"
+        "Shashank Aryan", "Pythonista", "FOSS Enthusiast", "Web Developer"
       ],
       typeSpeed: 10,
       loop: true,
@@ -101,21 +108,21 @@ $(document).ready(function () {
 
     });
 
-    // Show Reletive Page Onclick
+    // Show Relative Page Onclick
 
     $('.tabs div.profile-btn').on('click', function () {
-        $('.profile-page').fadeIn(1200);
+        $('.about-page').fadeIn(1200);
         $('.icon-arrow-left-circle').css("display","block")
 
     });
 
     $('.tabs div.resume-btn').on('click', function () {
-        $('.resume-page').fadeIn(1200);
+        $('.career-page').fadeIn(1200);
         $('.icon-arrow-left-circle').css("display","block")
     });
 
     $('.tabs div.contact-btn').on('click', function () {
-        $('.contact-page').fadeIn(1200);
+        $('.reach-page').fadeIn(1200);
         $('.icon-arrow-left-circle').css("display","block")
     });
 
@@ -128,7 +135,7 @@ $(document).ready(function () {
         $('.introduction, .tabs').animate({
             left: 0
         }, 1000, 'easeOutQuart');
-        $('.profile-page, .resume-page, .portfolio-page, .contact-page').fadeOut(800);
+        $('.about-page, .career-page, .portfolio-page, .reach-page').fadeOut(800);
         $('.icon-arrow-left-circle').css("display","none")
     });
 

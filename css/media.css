@@ -99,6 +99,14 @@
       height: 100px;
     }
 
+    .story-content{
+      width: 95%;
+      transform: rotate(-5deg);
+    }
+    .keyword{
+      top: 40%;
+      padding-left: 20px;
+    }
     .main-heading {
         padding-left: 20px;
     }
