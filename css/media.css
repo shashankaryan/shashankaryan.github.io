@@ -56,24 +56,20 @@
         margin-top: 20px;
     }
 
-    .education-container:before,
-    .experience-container:before {
+    .education-container:before {
         display: none;
     }
 
-    .education-content,
-    .experience-content {
+    .education-content{
         width: 100%;
         margin-left: 0;
     }
 
-    .education-content h3,
-    .experience-content h3 {
+    .education-content h3{
         text-align: center;
     }
 
-    .education-content h3:before,
-    .experience-content h3:before {
+    .education-content h3:before{
         display: none;
     }
 
@@ -137,4 +133,61 @@
         font-size: 12px;
     }
 
+}
+
+
+@media screen and (max-width:768px){
+  .timeline-block .timeline-content:before{
+    display:none;
+  }
+}
+@media only screen and (min-width:768px){
+  #timeline-education::before{
+    left:50%;
+    margin-left:-2px;
+    height:62.1%;
+    background:peru;
+  }
+
+.timeline-block{
+  margin:-5em 0;
+}
+
+.timeline-block .card{
+  margin:0;
+  visibility: visible;
+  -webkit-transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.timeline-block .timeline-dot{
+  width:50px;
+  height:50px;
+  left:50%;
+  top:0;
+  z-index:2;
+  margin-left:-24px;
+  -webkit-transform:translateZ(0);
+  -webkit-backface-visibility:hidden;
+}
+
+.timeline-block .timeline-content{
+  width:44%;
+}
+
+.timeline-block .timeline-content .timeline-title{
+  max-width:100%;
+}
+
+.timeline-block:nth-child(even) .timeline-content{
+  float:right;
+}
+
+.timeline-block:nth-child(even) .timeline-content::before{
+  top:25px;
+  left:auto;
+  right:101.2%;
+  z-index:-2;
+}
 }

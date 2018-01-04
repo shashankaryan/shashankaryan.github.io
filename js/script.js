@@ -164,50 +164,6 @@ $(document).ready(function () {
 
     $(window).on('resize', maximizeHeight);
 
-    /*  ----------------------------------------
-         Tooltip Starter for Social Media Icons
-        ----------------------------------------  */
-
-    $('.intro-content .social-media [data-toggle="tooltip"]').tooltip({
-        placement: 'bottom'
-    });
-
-    $('.contact-details .social-media [data-toggle="tooltip"]').tooltip();
-
-    /*  ------------
-         Pie Charts
-        ------------  */
-
-    $(function () {
-
-        var fillColor = $('.footer').css('background-color'); // Get background color of footer to set relevent fill color in pie charts
-
-        // Initiate EasyPieChart
-
-        $('.skill').easyPieChart({
-            barColor: fillColor,
-            trackColor: '#c6c6c6',
-            scaleColor: '#c6c6c6',
-            scaleLength: 8,
-            lineWidth: 8,
-            size: 150,
-            lineCap: 'butt'
-        });
-
-    });
-
-  /*  -----------------------------------------------------
-          OwlCarousel ( for portfolio page : testimonials slider )
-        -----------------------------------------------------  */
-
-    $(function () {
-        $(".owl-carousel").owlCarousel({
-            navigation: false, // Show next and prev buttons
-            slideSpeed: 200,
-            paginationSpeed: 300,
-            singleItem: true
-        });
-    });
 
     /*  -------------
          Contact Form
@@ -232,4 +188,27 @@ $(document).ready(function () {
         });
         return false;
     });
+
+
+    var textCol = '#ffffff' ;
+    if( ! $('#myCanvas').tagcanvas({
+              textColour : textCol,
+              outlineThickness : 0.9,
+              outlineColour : '#fe0853',
+              maxSpeed : 0.04,
+              freezeActive:true,
+              shuffleTags:true,
+              shape:'sphere',
+              zoom:1,
+              noSelect:true,
+              textFont:null,
+              pinchZoom:true,
+              freezeDecel:true,
+              fadeIn:3000,
+              initial: [0.3,-0.1],
+              depth : 0.8
+          })) {
+          // TagCanvas failed to load
+          $('#myCanvasContainer').hide();
+      }
 });
