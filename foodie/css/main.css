@@ -48,7 +48,9 @@ a {
 }
 
 /*=============================================================*/
+
 /*NAVBAR STYLES*/
+
 /*=============================================================*/
 
 header {
@@ -84,7 +86,9 @@ nav .navbar-brand {
 }
 
 /*=============================================================*/
+
 /*PAGE1 STYLES*/
+
 /*=============================================================*/
 
 .main section.page1 {
@@ -134,7 +138,9 @@ nav .navbar-brand {
 }
 
 /*=============================================================*/
+
 /*PAGE 2*/
+
 /*=============================================================*/
 
 .main section.page2 {
@@ -228,6 +234,7 @@ section h1.line:before {
 }
 
 /*CARD STYLES*/
+
 .card {
   width: 220px;
   height: 220px;
@@ -282,7 +289,9 @@ section h1.line:before {
 }
 
 /*=============================================================*/
+
 /*PAGE 3*/
+
 /*=============================================================*/
 
 .main section.page3 .page_container {
@@ -335,6 +344,7 @@ section.page3 .item3 {
 }
 
 /*GOOGLE MAP*/
+
 #google-container {
   position: relative;
   width: 100%;
@@ -407,7 +417,9 @@ section.page3 .item3 {
 }
 
 /*=============================================================*/
+
 /*PAGE4*/
+
 /*=============================================================*/
 
 .main section.page4 {
@@ -493,8 +505,11 @@ section.page3 .item3 {
 }
 
 /*=============================================================*/
+
 /*PAGE5*/
+
 /*=============================================================*/
+
 .main section.page5 .page_container {
   padding: 0px 0 0 150px;
   padding-top: 40px;
@@ -517,25 +532,63 @@ section.page3 .item3 {
 
 .carousel-wrapper {
   position: relative;
-  width: 92%;
+  width: 100%;
+  padding-top: 10px;
   height: 75%;
+  margin-left: -15px;
   overflow-x: hidden;
 }
 
 .carousel-wrapper .carousel {
   position: absolute;
-  padding-top: 50px;
   width: 100%;
-  height: 100%;
+  height: 95%;
+  overflow-y: hidden;
+}
+
+.slick-current {
+  height: 410px !important;
+}
+
+.slick-current .food-description {
+  top: 250px !important;
+}
+
+.slick-prev {
+  background-image: url(../img/back.png);
+  right: 15%;
+  z-index: 5;
+}
+
+.slick-next {
+  background-image: url(../img/next.png);
+  right: 10%;
+}
+
+.slick-prev, .slick-next {
+  background-repeat: no-repeat;
+  background-color: #fff;
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  border: none;
+  font-size: 0;
+  bottom: 10px;
+  outline: none;
+}
+
+.slick-current .food-description span.know-more {
+  left: 85%;
+  bottom: -20px;
 }
 
 .carousel-wrapper .carousel .carousel-cell {
   background-color: #FFFFFF;
   border: .1px solid lightgrey;
-  width: 200px;
   height: 360px;
   text-align: right;
-  margin: 0 20px;
+  margin: 0 15px;
+  margin-top: 35px;
   transition: transform 500ms ease;
 }
 
@@ -543,14 +596,14 @@ section.page3 .item3 {
   position: absolute;
   z-index: 5;
   height: 65px;
-  left: 65%;
-  margin-top: -35px;
+  margin-top: -30px;
+  margin-left: 180px;
   width: 65px;
 }
 
-.carousel img {
-  max-width: 100%;
-  height: auto;
+.carousel-cell img.dishpic {
+  width: 210px;
+  height: 200px;
   display: block;
 }
 
@@ -558,7 +611,7 @@ section.page3 .item3 {
   position: relative;
   width: 60px;
   float: left;
-  margin-left: -10px;
+  text-align: center;
   color: #fff;
   z-index: 2;
   height: 60px;
@@ -579,7 +632,6 @@ section.page3 .item3 {
 .foodimage span h1 {
   margin: 0;
   margin-bottom: -10px;
-  margin-left: -15px;
   width: 60px !important;
   font-size: 30px;
 }
@@ -596,8 +648,9 @@ section.page3 .item3 {
   transform: translate(0px, 141px);
 }
 
-.food-description {
-  top: 200px;
+.carousel .food-description {
+  top: 230px;
+  width: inherit;
   position: absolute;
   padding: 15px 20px;
   padding-right: 25px;
@@ -622,44 +675,19 @@ section.page3 .item3 {
 
 .food-description span.know-more {
   position: relative;
-  bottom: -5px;
-  left: 84%;
+  bottom: -15px;
+  left: 85%;
+  outline: none;
 }
 
 .food-description span.know-more a:hover, .food-description span.know-more a:active, .food-description span.know-more a:visited, .food-description span.know-more a:focus {
   color: #333333;
 }
 
-
-.carousel-wrapper .carousel .carousel-cell.is-selected {
-  height: 400px;
-  width: 250px;
-  margin-left: -5px;
-}
-
-.carousel-wrapper .carousel .carousel-cell.is-selected .food-description {
-  top: 250px;
-}
-
-.carousel-wrapper .carousel .carousel-cell.is-selected .arrow {
-  transform: translate(0px, 191px);
-}
-
-.carousel-wrapper .carousel .carousel-cell.is-selected .food-description span.know-more {
-  left: 88%;
-  bottom: -15px;
-}
-
-.carousel-wrapper .flickity-page-dots {
-  display: none;
-}
-
-.carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
-  overflow: visible;
-}
-
 /*=============================================================*/
+
 /*PAGE 6*/
+
 /*=============================================================*/
 
 .main section.page6 .page_container {
@@ -782,4 +810,5 @@ form {
 .footer img {
   margin-bottom: 100px;
 }
+
 /*ENDS*/

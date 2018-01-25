@@ -17,7 +17,7 @@
   <!-- LIBRARY IMPORTS -->
   <link rel="stylesheet" href="css/fullPageScroll.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href='css/flickity.min.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <!-- CUSTOM -->
   <link rel="stylesheet" href="css/main.css">
@@ -27,7 +27,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUXL1iNDl2kKnTdo8AYm1nhqcU1flMMaI"></script>
   <!-- CUSTOM -->
   <script type="text/javascript" src="js/main.js"></script>
@@ -296,11 +296,38 @@
               </div>
             </div>
             <div class="carousel-wrapper wow fadeInRight">
-              <div class="carousel" data-flickity>
+              <div class="carousel" data-slick='{"slidesToShow": 5, "slidesToScroll": 1}'>
                 <div class="carousel-cell">
                   <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
                   <div class="foodimage">
+                    <span class="serving"><h1>4</h1>SERVINGS<span class="transparent-bg"></span></span>
+                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
+                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
+                  </div>
+                  <div class="food-description">
+                    <span>DIFFICULTY</span>
+                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
+                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
+                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <div class="foodimage">
                     <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
+                    <img class="dishpic" src="img/item1.png" alt="Dish-pic">
+                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
+                  </div>
+                  <div class="food-description">
+                    <span>DIFFICULTY</span>
+                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
+                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
+                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
+                  <div class="foodimage">
+                    <span class="serving"><h1>1</h1>SERVINGS<span class="transparent-bg"></span></span>
                     <img class="dishpic" src="img/item2.png" alt="Dish-pic">
                     <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
                   </div>
@@ -314,6 +341,19 @@
                 <div class="carousel-cell">
                   <div class="foodimage">
                     <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
+                    <img class="dishpic" src="img/item1.png" alt="Dish-pic">
+                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
+                  </div>
+                  <div class="food-description">
+                    <span>DIFFICULTY</span>
+                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
+                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
+                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
+                  </div>
+                </div>
+                <div class="carousel-cell">
+                  <div class="foodimage">
+                    <span class="serving"><h1>3</h1>SERVINGS<span class="transparent-bg"></span></span>
                     <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
                     <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
                   </div>
@@ -328,128 +368,6 @@
                   <div class="foodimage">
                     <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
                     <img class="dishpic" src="img/item2.png" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item2.png" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item2.png" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item2.png" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item2.png" alt="Dish-pic">
-                    <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
-                  </div>
-                  <div class="food-description">
-                    <span>DIFFICULTY</span>
-                    <p class="foodname">PINEAPPLE FRUIT SALAD WITH FRESH CREAM</p>
-                    <p style="margin-top:-10px;">This pineapple juice is the star of the dressing what gives it such a refreshing and sweet taste. Pineapple juice is kno</p>
-                    <span class="know-more"> <a href="#">KNOW MORE</a> </span>
-                  </div>
-                </div>
-                <div class="carousel-cell">
-                  <img class="chef-stamp" src="img/chef-stamp.png" alt="chef-stamp">
-                  <div class="foodimage">
-                    <span class="serving"><h1>2</h1>SERVINGS<span class="transparent-bg"></span></span>
-                    <img class="dishpic" src="img/item3.jpg" alt="Dish-pic">
                     <a href="#"><img class="arrow" src="img/go-btn.png" alt=""></a>
                   </div>
                   <div class="food-description">
@@ -578,9 +496,7 @@
             </div>
           </div>
         </section>
-
       </div>
-
     </container>
   </div>
 </body>
