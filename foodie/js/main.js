@@ -11,4 +11,7 @@ $(document).ready(function() {
       loopBottom: true,
       sectionSelector: 'section'
     });
+
+    // Flickity Settings
+    $('.carousel').flickity().flickity('next').flickity( 'select', 3 );
 });

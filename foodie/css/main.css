@@ -513,12 +513,6 @@ section.page3 .item3 {
   font-size: 15px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 /*CAROUSEL STYLES*/
 
 .carousel-wrapper {
@@ -552,6 +546,12 @@ img {
   left: 65%;
   margin-top: -35px;
   width: 65px;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .foodimage span.serving {
@@ -626,42 +626,10 @@ img {
   left: 84%;
 }
 
-.carousel-wrapper .carousel .carousel-cell .more {
-  display: block;
-  opacity: 0;
-  margin: 5px 0 15px 0;
-  text-align: center;
-  font-size: 10px;
-  color: #CFCFCF;
-  text-decoration: none;
-  transition: opacity 300ms ease;
+.food-description span.know-more a:hover, .food-description span.know-more a:active, .food-description span.know-more a:visited, .food-description span.know-more a:focus {
+  color: #333333;
 }
 
-.carousel-wrapper .carousel .carousel-cell .more:hover, .carousel-wrapper .carousel .carousel-cell .more:active, .carousel-wrapper .carousel .carousel-cell .more:visited, .carousel-wrapper .carousel .carousel-cell .more:focus {
-  color: #CFCFCF;
-  text-decoration: none;
-}
-
-.carousel-wrapper .carousel .carousel-cell .line {
-  position: absolute;
-  width: 2px;
-  height: 0;
-  background-color: black;
-  left: 50%;
-  margin: 5px 0 0 -1px;
-  transition: height 300ms ease;
-  display: block;
-}
-
-.carousel-wrapper .carousel .carousel-cell .price {
-  position: absolute;
-  font-weight: 700;
-  margin: 45px auto 0 auto;
-  left: 50%;
-  transform: translate(-50%);
-  opacity: 0;
-  transition: opacity 300ms ease 300ms;
-}
 
 .carousel-wrapper .carousel .carousel-cell.is-selected {
   height: 400px;
@@ -741,6 +709,7 @@ form {
   line-height: 1.42857143;
   border-bottom: 1px solid black;
   box-shadow: none;
+  cursor: pointer;
 }
 
 .form-control:focus {
