@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/shashankaryan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shashankaryan.github.io
+  * I am shashankaryan (https://keybase.io/shashankaryan) on keybase.
+  * I have a public key ASAmlLKn8R-K8OaW251_ubs7uYjYVxzxjVNqu3RDvDs2ewo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202694b2a7f11f8af0e696db9d7fb9bb3bb988d8571cf18d536abb7443bc3b367b0a",
+      "host": "keybase.io",
+      "kid": "01202694b2a7f11f8af0e696db9d7fb9bb3bb988d8571cf18d536abb7443bc3b367b0a",
+      "uid": "414f3a3a01f6d5405d97d7f3343d4c19",
+      "username": "shashankaryan"
+    },
+    "merkle_root": {
+      "ctime": 1552375437,
+      "hash": "3384b8132d09d03e3c18442c157612e88353540b1a3e9ee8076d299cd9f9771e8e9cb975a300310697c0c12b7d22d4d3e768a28f4a3f423f037503a501087ad0",
+      "hash_meta": "c12df9a404693a2fe8a8f8a83385236ddd5e30facec9e7cdbf73710305715b14",
+      "seqno": 4927751
+    },
+    "service": {
+      "entropy": "u6HQ7D6I/sJ9lEzN7+dY4ogM",
+      "hostname": "shashankaryan.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.0"
+  },
+  "ctime": 1552375449,
+  "expire_in": 504576000,
+  "prev": "c8c3b9369c1fdc33ac4405b42a4631171664507979d4f3ea4330fd181a733171",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJpSyp/EfivDmltudf7m7O7mI2Fcc8Y1Tart0Q7w7NnsKp3BheWxvYWTESpcCBsQgyMO5Npwf3DOsRAW0KkYxFxZkUHl51PPqQzD9GBpzMXHEIB931fDEHWdUT46Elt04bkhDzsXvos1B/M9wo+xTnHqqAgHCo3NpZ8RAQjdKwMFZFOqeATHbClS7wNM5nYzfadffBdvGnCUqtABKOaiLIj2PsP4fnVVKb783+PzevrwjZ1pCtRd4eHbyCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBzjqih/oPYEuAB7GSqd8GxzY38AIfK3TIGiNtM/g7CIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shashankaryan
+
+==================================================================
